@@ -2,4 +2,7 @@
 <div class="container">
   <h2 class="mt-2 font-weight-light">Videos de Youtube</h2>
   <hr>
+  <app-tarjeta [lista]="videos" *ngIf="videos.length > 0"></app-tarjeta>
 </div>
+
+
